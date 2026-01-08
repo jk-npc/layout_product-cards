@@ -1,3 +1,17 @@
-body {
+@import './utils/variables';
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  display: block;
+  font-family: $font-main;
+  background-color: $card-color;
+  align-items: center;
+}
+
+@import './blocks/stars';
+@import './blocks/card';
