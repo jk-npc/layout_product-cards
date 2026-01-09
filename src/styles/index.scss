@@ -11,6 +11,8 @@ body {
   font-family: $font-main;
   background-color: $card-color;
   align-items: center;
+  min-height: 100vh;
+  justify-content: center;
 }
 
 @import './blocks/stars';
